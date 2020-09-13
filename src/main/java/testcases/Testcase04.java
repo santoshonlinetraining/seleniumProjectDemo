@@ -50,6 +50,7 @@ public class Testcase04 extends TestBase {
 		
 		loginHomePageObj.getLogoutLink().click();
 		logger.log(LogStatus.PASS, "User Logged out");
+		Assert.assertTrue(true);
 	}
 	
 	@Test

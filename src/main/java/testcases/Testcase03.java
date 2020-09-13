@@ -57,5 +57,17 @@ public class Testcase03 extends TestBase {
 	void testing() {
 		
 	}
+	
+	@Test
+	void testing20() {
+		
+	}
+
+	
+	@Test
+	void testing30() {
+		
+	}
+
 
 }

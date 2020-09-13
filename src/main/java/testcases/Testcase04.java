@@ -31,6 +31,7 @@ public class Testcase04 extends TestBase {
 		signInObj.setpassword(datatable.getCellData("Sheet1", "password", 4));
 		signInObj.getSignInButton().click();
 		logger.log(LogStatus.PASS, "User Login Done");
+		Assert.assertTrue(true);
 	}
 	
 	@Test(enabled=true, groups= {"regression", "login"})
